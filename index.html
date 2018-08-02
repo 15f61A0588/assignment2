@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <video src="videoplayback.mp4" autoplay controls id="video">
+
+  </video>
+</br>
+  <button type="button" name="button" onclick="play()">Play</button>
+  <button type="button" name="button" onclick="pause()">Pause</button>
+
+  </body>
+</html>
+<script type="text/javascript">
+  function play(){
+    var vid=document.getElementById("video");
+    vid.play();
+
+  }
+  function pause(){
+    var vid=document.getElementById("video");
+    vid.pause();
+
+  }
+</script>
+
+<hr>
+
+
+<audio src="1part.mp3" autoplay controls id="audio">
+
+</audio>
+</br>
+<button type="button" name="button" onclick="play1()">Play</button>
+<button type="button" name="button" onclick="pause1()">Pause</button>
+
+</body>
+</html>
+<script type="text/javascript">
+function play1(){
+  var aid=document.getElementById("audio");
+  aid.play();
+
+}
+function pause1(){
+  var aid=document.getElementById("audio");
+  aid.pause();
+
+}
+</script>
